@@ -1,0 +1,45 @@
+:root{
+    --light-red:rgb(238, 97, 97);
+    --light-green:rgb(103, 227, 103);
+}
+.main{
+    background-color: var(--light-red);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.container1{
+    /* width: 200px; */
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: green; */
+}
+.container1 div,.container2 div{
+    min-height:100px;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+.container2{
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-evenly;
+}
+.center{
+    width: 800px;
+    height: 400px;
+    background-color: var(--light-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    border: 1px solid black;
+}
+
+
+

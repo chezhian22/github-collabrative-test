@@ -1,0 +1,41 @@
+.main2{
+    display: flex;
+}
+.container1{
+    flex:1;
+    justify-items: center;
+    
+    
+}
+.container2{
+    flex:1;
+    justify-items: center;
+}
+.welcome-image img{
+    margin-top: 100px;
+    background-color: aquamarine;
+    width: 600px;
+    height: 350px;
+    /* z-index: 0; */
+}
+.container1 h1{
+    user-select:none;
+}
+
+@media (max-width:900px){
+    .main2{
+        /* flex-direction: column; */
+        width: 900px;
+
+    }
+    .container1 h1{
+        width: 200px;
+    }
+    .container2{
+        /* justify-items: center; */
+    }
+   .welcome-image img{
+    width: 200px;
+    height:150;
+   }
+}
